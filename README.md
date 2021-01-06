@@ -5,11 +5,12 @@ Procedure to create the project in Django with Postgres and RESTAPI:
 =============================
 
 1: Create Virtual Machine
+
 python -m venv empapi   
 
 C:\Users\ganes\Django-RESTAPI\empapi-crud>python -m venv empapi
  
-3: ACtivate the virtual Machine 
+3: Activate the virtual Machine 
 .\empapi\scripts\activate
 C:\Users\ganes\Django-RESTAPI\empapi-crud>.\empapi\scripts\activate
    
@@ -46,7 +47,8 @@ PS C:\Users\ganes\Django-RESTAPI\empapi-crud\empapicrud> python manage.py starta
 pip install djangorestframework
 
 14 update setting.py with rest_framework ,
-# Application definition
+
+Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
