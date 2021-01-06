@@ -4,42 +4,49 @@
 Procedure to create the project in Django with Postgres and RESTAPI:
 =============================
 
-0: python -m venv empapi   
+1: Create Virtual Machine
+python -m venv empapi   
+
 C:\Users\ganes\Django-RESTAPI\empapi-crud>python -m venv empapi
-
-2: activate                            
-C:\Users\ganes\Django-RESTAPI\empapi-crud>activate
-
-3: .\empapi\scripts\activate
+ 
+3: ACtivate the virtual Machine 
+.\empapi\scripts\activate
 C:\Users\ganes\Django-RESTAPI\empapi-crud>.\empapi\scripts\activate
    
-4: py -m pip install Django   
+4: Install Django 
+py -m pip install Django     
 (empapi) C:\Users\ganes\Django-RESTAPI\empapi-crud>py -m pip install Django
 
-6: django-admin empapicrud
+6:  Create Folder
+django-admin empapicrud
 (empapi) C:\Users\ganes\Django-RESTAPI\empapi-crud>django-admin empapicrud
 
-7: django-admin startproject empapicrud
+7: Create Project
+django-admin startproject empapicrud
 (empapi) C:\Users\ganes\Django-RESTAPI\empapi-crud>django-admin startproject empapicrud
 
-8: cd empapicrud                        
+8: Enter into project
+cd empapicrud                        
 (empapi) C:\Users\ganes\Django-RESTAPI\empapi-crud>cd empapicrud
 
 
-9: code .                               ==> to open visualstudio
+9: Enter into Visual Studio through command prompt 
+code .                               ==> to open visualstudio
 (empapi) C:\Users\ganes\Django-RESTAPI\empapi-crud\empapicrud>code .
 
-10: press F7 to get the history of commands used
+10: History command to check the flow 
+press F7 to get the history of commands used
 
 11. in Visual code, open terminal and create app,
 PS C:\Users\ganes\Django-RESTAPI\empapi-crud\empapicrud> python manage.py startapp employeeapi
 
 12. Update employeeapi -app name in setting.py(under empapicrud project)
 
-13.pip install djangorestframework
+13. Install django rest api framework
+pip install djangorestframework
 
 14 update setting.py with rest_framework ,
-		# Application definition
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
